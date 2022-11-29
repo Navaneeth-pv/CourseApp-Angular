@@ -14,11 +14,6 @@ export class AddCourseComponent {
   courseVenue=""
 
 
-
-
-
-
-
   readValues=()=>
 
   {
