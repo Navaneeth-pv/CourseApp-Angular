@@ -13,4 +13,8 @@ export class ApiService {
   {
     return this.htpp.get("https://mylinkurcodesapp.herokuapp.com/getcourses")
   }
+  addCourse=(dataToSend:any)=>
+  {
+    return this.htpp.post("https://mylinkurcodesapp.herokuapp.com/addcourse",dataToSend)
+  }
 }
